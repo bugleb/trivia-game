@@ -1,0 +1,65 @@
+body {
+	background-image: url('../images/food-wallpaper.jpg');
+	background-size: cover;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.main-div {
+	height: 100vh;
+}
+
+.game-div {
+	position: relative;
+	top: calc(50vh - 200px);
+	height: 400px;
+	text-align: center;
+}
+
+.answer-choice:hover{
+	font-weight: bold;
+	color: red;
+	cursor: pointer;
+}
+
+.my-button {
+	margin-top: 40px;
+}
+
+#question {
+	padding-bottom: 20px;
+}
+
+#answer-choices {
+	padding-bottom: 20px;
+}
+
+#info {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+	color: blue;
+}
+
+#game {
+	position: absolute;
+	top: 75px;
+	left: 0px;
+	width: 100%;
+}
